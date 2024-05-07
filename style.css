@@ -16,7 +16,7 @@ body {
 }
 
 #rightSide {
-    background-color: rgba(139, 139, 139, 0.84);
+    background-color: rgba(199, 199, 199, 0.84);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,16 +25,19 @@ body {
 }
 
 h1, h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(42, 164, 99);
     margin-top: 30px;
+    /*text-shadow: 1px 1px 1px black;*/
 }
 
 h1 {
     font-size: 3em;
+    font-weight: 900;
 }
 
 h2 {
-    margin-top: 0.2em;
+    margin-top: 0em;
+    font-weight: 900;
 }
 
 p {
@@ -94,6 +97,7 @@ p {
     font-variation-settings:
         "wdth" 100,
         "YTLC" 500;
+    color: white;
 }
 
 fieldset {
