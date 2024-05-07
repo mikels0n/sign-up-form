@@ -16,18 +16,17 @@ body {
 }
 
 #rightSide {
-    background-color: rgba(168, 50, 96);
+    background-color: rgba(0, 163, 76, 0.84);
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: auto;
     box-shadow: -10px -10px 50px black;
+    flex: auto;
 }
 
 h1, h2 {
-    color: white;
-    margin-top: 2em;
-    margin-left: 1em;
+    color: rgb(255, 255, 255);
+    margin-top: 1em;
 }
 
 h1 {
@@ -39,11 +38,11 @@ h2 {
 }
 
 p {
-    margin-top: 4em;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-top: 3em;
     text-align: justify;
-    color: gainsboro;
+    color: rgb(0, 0, 0);
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 #blonde {
@@ -53,4 +52,33 @@ p {
     object-fit: cover;
     object-position: -400px;
     box-shadow: -10px -10px 5px black;
+}
+
+#banner {
+    margin-top: 60vh;
+    width: 70vh;
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.54);
+    justify-content: center;
+    align-items: center;
+}
+
+#mills {
+    padding: 20px;
+    padding-right: 5px;
+    max-width: 10vw;
+    max-height: 10vh;
+}
+
+#millsCaption {
+    margin: 0;
+    font-size: 4em;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
 }
