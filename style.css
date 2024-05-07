@@ -59,7 +59,7 @@ p {
     width: 70vh;
     display: flex;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.54);
+    background-color: rgba(0, 132, 62, 0.529);
     justify-content: center;
     align-items: center;
 }
@@ -69,7 +69,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 132, 62);
+    background-color: rgba(0, 132, 62, 0.876);
     margin-top: 30px;
     width: 70%;
     box-shadow: 20px 20px 1px black;
@@ -170,5 +170,7 @@ input {
     background-color: gold;
     margin-bottom: 30px;
     color: black;
+    font-size: 1em;
+    font-weight: 700;
 }
 
